@@ -1,6 +1,6 @@
 from operation.main import add , sub
 def test_add() -> None:
-    assert add(2,3) == 5
+    assert add(5,3) == 5
     assert add(-1,1) == 0
 
 def test_sub() -> None:
